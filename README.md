@@ -51,7 +51,7 @@ Make sure you have the following installed on your system:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/MAAB-FW/ServiceFlow.git
+    git clone url
     cd ServiceFlow
     ```
 
