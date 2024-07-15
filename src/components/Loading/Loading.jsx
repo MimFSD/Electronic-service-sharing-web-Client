@@ -10,6 +10,8 @@ const Loading = ({ status }) => {
     )
 }
 
+
+
 export default Loading
 
 Loading.propTypes = {
