@@ -18,6 +18,7 @@ const Login = () => {
         const email = form.email.value
         const password = form.password.value
 
+        
         if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) return toast.error("Invalid email address")
 
         if (!/^(?=.*[A-Z])(?=.*[a-z]).{6,}$/.test(password))
