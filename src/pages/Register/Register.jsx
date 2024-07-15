@@ -5,12 +5,16 @@ import { Link, Navigate, useLocation, useNavigate } from "react-router-dom"
 import useAuth from "../../hooks/useAuth"
 import toast from "react-hot-toast"
 
+
+
 const Register = () => {
     const { user, googleSignIn, createUser, updateUserData } = useAuth()
     const navigate = useNavigate()
     const location = useLocation()
     if (user) return <Navigate to={"/"} replace></Navigate>
 
+
+    
     const handleSubmit = (e) => {
         e.preventDefault()
         const form = e.target
