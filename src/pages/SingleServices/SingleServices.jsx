@@ -7,6 +7,7 @@ import { Link, useParams } from "react-router-dom"
 import { IoPricetags } from "react-icons/io5"
 import useSecureAxios from "../../hooks/useSecureAxios"
 
+
 const SingleServices = () => {
     const { id } = useParams()
     const secureAxios = useSecureAxios()

@@ -5,6 +5,7 @@ import { FcGoogle } from "react-icons/fc"
 import useAuth from "../../hooks/useAuth"
 import toast from "react-hot-toast"
 
+
 const Login = () => {
     const { user, googleSignIn, loginUser } = useAuth()
     const navigate = useNavigate()
