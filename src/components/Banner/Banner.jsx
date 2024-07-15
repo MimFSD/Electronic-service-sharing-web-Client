@@ -15,6 +15,9 @@ const Banner = () => {
                     Trust our experienced technicians to restore your devices to full functionality. Serving both residential and
                     commercial clients, we offer fast turnaround times and competitive rates.
                 </p>
+            
+
+            
                 <div className="flex items-start md:w-2/3 mt-5">
                     <Link
                         to="/all-services"
@@ -26,6 +29,7 @@ const Banner = () => {
                     </Link>
                 </div>
             </div>
+
             <div className="md:w-1/2 flex items-center justify-center lg:h-[400px] ">
                 <img
                     className="my-8 h-full object-contain"
