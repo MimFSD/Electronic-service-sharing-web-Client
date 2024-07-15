@@ -45,6 +45,9 @@ const PopularServices = () => {
             </div>
         )
 
+
+
+
     return (
         <div className="md:my-12">
             <div className="text-center ">
@@ -54,6 +57,8 @@ const PopularServices = () => {
                     from our commitment to quality, reliability, and customer satisfaction.
                 </p>
             </div>
+
+            
             <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-6">
                 {isPending ? (
                     <div className="col-span-2">
