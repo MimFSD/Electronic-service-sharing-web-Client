@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"
 
 const ErrorPage = () => {
     return (
-        <div>
+        <div> 
+
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Error</title>
@@ -28,6 +29,7 @@ const ErrorPage = () => {
                                 />
                             </svg>
                         </p>
+                        
                         <h1 className="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Page not found</h1>
                         <p className="mt-4 text-gray-500 dark:text-gray-400">
                             The page you are looking for does not exist. Here are some helpful links:
