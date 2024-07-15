@@ -4,6 +4,7 @@ import { Outlet, ScrollRestoration } from "react-router-dom"
 import Footer from "../components/Footer/Footer"
 
 
+
 const Main = () => {
     return (
         <div className="max-w-[1440px] mx-auto font-roboto">
@@ -16,5 +17,6 @@ const Main = () => {
         </div>
     )
 }
+
 
 export default Main
