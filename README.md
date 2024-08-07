@@ -41,12 +41,12 @@
 
 Follow these steps to set up and run the project locally.
 
-### Prerequisites
+<!-- ### Prerequisites
 
 Make sure you have the following installed on your system:
 
 - [Node.js](https://nodejs.org/) (version 14.x or later)
-- [npm](https://www.npmjs.com/) (version 6.x or later) or [yarn](https://yarnpkg.com/) (version 1.22.x or later)
+- [npm](https://www.npmjs.com/) (version 6.x or later) or [yarn](https://yarnpkg.com/) (version 1.22.x or later) -->
 
 ### Installation
 
