@@ -8,6 +8,8 @@ import Swal from "sweetalert2"
 import { Helmet } from "react-helmet"
 import useSecureAxios from "../../hooks/useSecureAxios"
 
+
+
 const BookNowPage = () => {
     const { user } = useAuth()
     const { id } = useParams()
